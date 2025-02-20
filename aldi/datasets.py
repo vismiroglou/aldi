@@ -20,3 +20,12 @@ register_coco_instances("cfc_train", {},         "datasets/cfc_daod/coco_labels/
 register_coco_instances("cfc_val",   {},         "datasets/cfc_daod/coco_labels/cfc_val.json",                    "datasets/cfc_daod/images/cfc_val/")
 register_coco_instances("cfc_channel_train", {},         "datasets/cfc_daod/coco_labels/cfc_channel_train.json",                  "datasets/cfc_daod/images/cfc_channel_train/")
 register_coco_instances("cfc_channel_test",   {},         "datasets/cfc_daod/coco_labels/cfc_channel_test.json",                    "datasets/cfc_daod/images/cfc_channel_test/")
+
+# RUOD
+register_coco_instances("ruod_train", {}, "/home/vismiroglou/datasets/RUOD/RUOD_OD/labels/instances_train.json", "/home/vismiroglou/datasets/RUOD/RUOD_OD/images/train")
+register_coco_instances("ruod_val", {}, "/home/vismiroglou/datasets/RUOD/RUOD_OD/labels/instances_test.json", "/home/vismiroglou/datasets/RUOD/RUOD_OD/images/test")
+
+#Brackish
+register_coco_instances("brackish_train", {}, "/home/vismiroglou/datasets/brackish/annotations/annotations_COCO/train_groundtruth.json", "/home/vismiroglou/datasets/brackish/yolo_r2train/images/train")
+register_coco_instances("brackish_val", {}, "/home/vismiroglou/datasets/brackish/annotations/annotations_COCO/valid_groundtruth.json", "/home/vismiroglou/datasets/brackish/yolo_r2train/images/val")
+register_coco_instances("brackish_test", {}, "/home/vismiroglou/datasets/brackish/annotations/annotations_COCO/test_groundtruth.json", "/home/vismiroglou/datasets/brackish/yolo_r2train/images/test")
